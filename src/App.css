@@ -1,0 +1,128 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+.cart-product-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.cart-product-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ebebeb;
+}
+.removebtn{
+  margin-right: 20px;
+}
+.cartMargin{
+  margin-left: 20px;
+}
+.btnstyle{
+  size:10px;
+}
+.cartbtnDiv{
+  size: max-content;
+}
+.quantity{
+  border: 1px solid;
+  margin-top: 2px;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  background-color:#fb5d5d;
+  padding: 3px;
+}
+.trashStyle{
+  font-size:24px; 
+  color:red;
+}
+.contentparentdiv{
+  display:flex;
+  justify-content: space-evenly;
+}
+.parentDiv{
+  display: flex;
+  
+  border: 1px solid black;
+  
+}
+
+.imgDiv{
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+}
+.imgParent{
+  display: flex;
+}
+.Productcontent{
+  margin: 10px;
+}
+.displayStyle{
+  display: flex;
+}
+.secondaryCartParent{
+  display: flex;
+  justify-content: space-around;
+}
+.setMargin{
+  margin-right: 4px;
+}
+.btnDiv{
+  width: 35px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: black;
+}
+.BtnMargin{
+  margin-left: 5px;
+  color: #ebebeb;
+}
+.btnGroupSize{
+  width: 35px;
+  height: 30px;
+  
+}
+.btnGroupMrg{
+  margin-bottom: -5px;
+}
