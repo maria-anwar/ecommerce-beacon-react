@@ -103,7 +103,7 @@ const Cart = () =>{
             <div className="imgParent">
                 <div className="cart-total">
                     <h3 className="ml-5">Cart Total: <span>770000</span></h3>
-                   
+                    <button className="btn btn-danger">Checkout</button>
                 </div>
                 <div className="foot">
                 <div className="buttons mt-30px ml-15px">
